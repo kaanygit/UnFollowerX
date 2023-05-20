@@ -1,0 +1,17 @@
+{
+    "name":"UnFollerwersX",
+    "version":"1.0",
+    "manifest_version":2,
+    "icons":{"128":"./assets/128x128.png"},
+    "browser_action":{
+        "default_popup":"./popup.html",
+        "default_icon":"./assets/19x119.png"
+    },
+    "background":{
+        "scripts":["./unFollowerX.js"]
+    },
+    "permissions":[
+        "tabs",
+        "https://www.instagram.com/*"
+    ]
+}
